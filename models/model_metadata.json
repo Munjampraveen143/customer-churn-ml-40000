@@ -1,0 +1,16 @@
+{
+    "model": "XGBoost",
+    "feature_engineering": [
+        "avg_monthly_spend",
+        "num_services",
+        "customer_risk_signals",
+        "charge_per_tenure",
+        "low_satisfaction",
+        "payment_problem",
+        "short_tenure",
+        "long_tenure"
+    ],
+    "training_rows": 32000,
+    "test_rows": 8000,
+    "random_state": 42
+}

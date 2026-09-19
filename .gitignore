@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.streamlit/
+# models/*.pkl
+reports/*.png
+reports/*.json
+data/processed/*
+!data/processed/.gitkeep
+prediction_history.db
+.DS_Store
