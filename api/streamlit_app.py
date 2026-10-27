@@ -25,7 +25,7 @@ st.write(
 # -------------------------------
 # Load trained model
 # -------------------------------
-MODEL_PATH = Path(__file__).parent / "models" / "churn_model.pkl"
+MODEL_PATH = Path(__file__).resolve().parent.parent / "models" / "churn_model.pkl"
 
 
 @st.cache_resource
